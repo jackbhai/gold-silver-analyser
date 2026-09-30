@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-09-30T09:17:22.132Z",
+  "total": 250,
+  "passed": 247,
+  "suites": {
+    "A": {
+      "total": 80,
+      "passed": 80,
+      "failed": []
+    },
+    "B": {
+      "total": 28,
+      "passed": 25,
+      "failed": [
+        {
+          "name": "B 2026-09-10 gold",
+          "detail": "err 3.70%"
+        },
+        {
+          "name": "B 2026-09-10 silver",
+          "detail": "err 5.92%"
+        },
+        {
+          "name": "B 2026-09-18 silver",
+          "detail": "err 4.31%"
+        }
+      ]
+    },
+    "C": {
+      "total": 98,
+      "passed": 98,
+      "failed": []
+    },
+    "D": {
+      "total": 30,
+      "passed": 30,
+      "failed": []
+    },
+    "E": {
+      "total": 14,
+      "passed": 14,
+      "failed": []
+    }
+  },
+  "realData": {
+    "goldMAPE": 1.09,
+    "silverMAPE": 1.542,
+    "directionAcc": 64.3,
+    "bandCoverage80": 77.6,
+    "n": 28
+  },
+  "note": "Deterministic seeded run — same code + same seed = same numbers, every time. Suite B uses only real IBJA Sept-2026 rates."
+}
